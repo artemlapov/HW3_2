@@ -39,14 +39,22 @@
                                     <action selector="startRequestButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="94H-dN-O4q"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emoji of the day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i48-lc-sfT">
+                                <rect key="frame" x="100" y="104" width="193" height="34"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="va1-sT-842" secondAttribute="trailing" constant="16" id="3u1-Po-VUx"/>
                             <constraint firstItem="va1-sT-842" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="6pf-AX-9qm"/>
+                            <constraint firstItem="i48-lc-sfT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="Aii-lY-s1N"/>
                             <constraint firstItem="hcn-Y2-U2r" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Aon-WU-TTq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="va1-sT-842" secondAttribute="bottom" constant="30" id="fv9-90-E5r"/>
+                            <constraint firstItem="i48-lc-sfT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qT2-44-4rr"/>
                             <constraint firstItem="hcn-Y2-U2r" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rKF-70-u8U"/>
                         </constraints>
                     </view>
